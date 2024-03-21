@@ -4,7 +4,7 @@ Tech exam for OTA
 
 This is made for tech examination only
 
-Specific Requirements
+### Specific Requirements
 
 1. API Endpoints:
 
@@ -24,12 +24,14 @@ Specific Requirements
 
 4. Error Handling: Basic error handling for common scenarios (e.g., note not found).
 
-How to run:
-1. Clone this repo
-2. Open command line on the folder
-3. run `mvn clean install`
-4. go to `/target` folder
-5. run `java -jar notes-ota-0.0.1-SNAPSHOT.jar`
-6. Open POSTMAN
-7. Import the `Notes OTA Collection.postman_collection.json` in this repo
-8. Run the tests
+### How to run:
+1. Make sure Java 17 is installed
+2. Make sure Maven is installed
+3. Clone this repo
+4. Open command line on the folder
+5. run `mvn clean install`
+6. go to `/target` folder
+7. run `java -jar notes-ota-0.0.1-SNAPSHOT.jar`
+8. Open POSTMAN
+9. Import the `Notes OTA Collection.postman_collection.json` in this repo
+10. Run the tests
