@@ -1,0 +1,1 @@
+INSERT INTO NOTES(title,content,created_at) values('Title', 'This is the content of the notes','2024-03-22')
